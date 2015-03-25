@@ -1,0 +1,30 @@
+!!!
+%html
+  %head
+    %meta{:charset => "utf-8"}
+    %title HOME'S API Sample Client
+  %body
+    APIへのリクエストを入力してください。
+    %br
+    parametersにはクエリストリング形式で入力出来ます。
+    %form{:action => "/api", :method => "post"}
+      %table
+        %tr
+          %th METHOD:
+          %td
+            %select{:name => 'method'}
+              %option{:value => 'get'} GET
+              %option{:value => 'post'} POST
+              %option{:value => 'put'} PUT
+              %option{:value => 'delete'} DELETE
+        %tr
+          %th PATH:
+          %td
+            %input{:name => "path", :size => 80, :required => true}
+        %tr
+          %th Parameters:
+          %td
+            %textarea{:name => "parameters", :rows => 10, :cols => 80}
+        %tr
+          %td{:colspan => 2}
+            %input{:type => "submit", :value => "call api"}
