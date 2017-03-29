@@ -1,5 +1,5 @@
-# HOME'S Public API Demo Ruby
-This application is designed to demo the HOME'S Public API.
+# LIFULL HOME'S Public API Demo Ruby
+This application is designed to demo the LIFULL HOME'S Public API.
 
 ## Installation
 
@@ -15,7 +15,7 @@ Or install it relative path:
 
     bundle install --path vendor/bundle
 
-Configure client settings in app.rb (provided by HOME'S):
+Configure client settings in app.rb (provided by LIFULL HOME'S):
 
     set :auth_server,   'Auth service URI (ex. https://auth.example.com/)'
     set :api_server,    'API service URI (ex. https://api.example.com/)'
