@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rack', '~> 1.6.0'
+gem 'rack', '~> 1.6.2'
 gem 'sinatra', '~> 1.4.6'
 gem 'sinatra-contrib', '~> 1.4.2'
 gem 'puma', '~> 2.11.1'
